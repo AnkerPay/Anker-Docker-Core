@@ -23,7 +23,6 @@ RUN apt-get update && \
       libgmp3-dev \
       libevent-dev \
       bsdmainutils \
-      libdb++-dev \
       libboost-all-dev \
       libqrencode-dev \
       libminiupnpc-dev \
