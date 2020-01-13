@@ -9,4 +9,4 @@ docker run \
   -p 12365:12365 \
   -v ~/.anker:/root/.anker \
   -d \
-  AnkerPay/anker-core:latest
+  ankerpay/anker-core:latest
