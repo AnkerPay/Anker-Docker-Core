@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t AnkerPay/anker-core:latest .
+docker build -t ankerpay/anker-core:latest .
