@@ -27,7 +27,8 @@ RUN apt-get update && \
       libqrencode-dev \
       libminiupnpc-dev \
       libcurl4-openssl-dev \
-      libdb4.8-dev \
+      libdb4.8 \
+      libdb4.8++ \
       unzip \
       wget
 
