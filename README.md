@@ -15,8 +15,8 @@ nano anker.conf
 ```
 Build image and run container
 ```text
-./build
-./run
+./build.sh
+./run.sh
 
 ./anker-cli.sh getinfo
 ```
