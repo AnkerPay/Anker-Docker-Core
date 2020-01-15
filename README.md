@@ -12,7 +12,7 @@ apt install git docker.io
 ##CentOS
 ```text
 yum check-update
-yum install -y git containerd.io yum-utils device-mapper-persistent-data lvm2
+yum install -y git yum-utils device-mapper-persistent-data lvm2
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 yum install --nobest docker-ce -y
 systemctl start docker
