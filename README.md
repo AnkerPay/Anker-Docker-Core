@@ -17,6 +17,7 @@ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce
 yum install --nobest docker-ce -y
 systemctl start docker
 systemctl enable docker
+firewall-cmd --permanent --zone=public --add-rich-rule='rule family=ipv4 source address=172.17.0.0/16 accept' && firewall-cmd --reload
 ```
 
 Clone code to your VPS
