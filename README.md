@@ -7,7 +7,7 @@ Connect to VPS
 git clone https://github.com/AnkerPay/Anker-Docker-Core.git
 cd Anker-Docker-Core
 ```
-copy there your anker.conf file
+copy your anker.conf file
 or edit exist
 
 ```text
