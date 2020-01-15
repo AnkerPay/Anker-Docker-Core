@@ -3,10 +3,20 @@
 ## Quick Start (daemon/AnkerNode)
 Connect to VPS 
 if you don't have git on your VPS, install it first
+###Ubuntu && Debian
 ```text
 apt update
 apt install git docker.io
 ```
+###CentOS
+```text
+yum check-update
+yum install git
+curl -fsSL https://get.docker.com/ | sh
+systemctl start docker
+systemctl enable docker
+```
+
 
 ```text
 git clone https://github.com/AnkerPay/Anker-Docker-Core.git
