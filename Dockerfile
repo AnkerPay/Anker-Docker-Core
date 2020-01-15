@@ -3,8 +3,8 @@ MAINTAINER Viktor Tyshchenko <viktor@ankerpay.com>
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update >/dev/null 2>&1
-RUN apt install -y software-properties-common 
+RUN apt-get update
+RUN apt-get install -y software-properties-common 
 RUN apt-add-repository -y ppa:bitcoin/bitcoin 
 
 RUN apt-get update && \
