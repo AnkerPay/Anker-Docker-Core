@@ -48,5 +48,5 @@ Build image and run container
 ##CentOS
 ```text
 ./build-centos.sh
-./run.sh
+./run-centos.sh
 ```
