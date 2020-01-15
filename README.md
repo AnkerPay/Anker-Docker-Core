@@ -38,9 +38,15 @@ nano anker.conf
 Node should be runing in NON-DAEMON mode. If in your config have line `daemon=1` you should delete it.
 
 Build image and run container
+
+##Ubuntu && Debian
 ```text
 ./build.sh
 ./run.sh
+```
 
-./anker-cli.sh getinfo
+##CentOS
+```text
+./build-centos.sh
+./run.sh
 ```
