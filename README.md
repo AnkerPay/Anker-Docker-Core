@@ -3,12 +3,13 @@
 ## Quick Start (daemon/AnkerNode)
 Connect to VPS 
 if you don't have git on your VPS, install it first
-###Ubuntu && Debian
+
+##Ubuntu && Debian
 ```text
 apt update
 apt install git docker.io
 ```
-###CentOS
+##CentOS
 ```text
 yum check-update
 yum install git
