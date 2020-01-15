@@ -29,8 +29,11 @@ or edit exist
 ```text
 nano anker.conf
 ```
-Node should be runing in NON-DAEMON mode. If in your config have line `daemon=1` you should delete it.
+`CTRL-O` - save file
 
+`CTRL-X` - exit from nano
+
+Node should be runing in NON-DAEMON mode. If in your config have line `daemon=1` you should delete it.
 
 Build image and run container
 ```text
