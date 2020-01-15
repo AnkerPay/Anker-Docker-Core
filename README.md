@@ -18,7 +18,7 @@ systemctl start docker
 systemctl enable docker
 ```
 
-
+Clone code to your VPS
 ```text
 git clone https://github.com/AnkerPay/Anker-Docker-Core.git
 cd Anker-Docker-Core
