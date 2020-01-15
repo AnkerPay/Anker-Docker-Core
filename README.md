@@ -4,6 +4,7 @@
 Connect to VPS 
 if you don't have git on your VPS, install it first
 ```text
+apt update
 apt install git docker.io
 ```
 
