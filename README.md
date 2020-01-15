@@ -29,9 +29,9 @@ or edit exist
 ```text
 nano anker.conf
 ```
-`CTRL-O` - save file
+`CTRL-o` - save file
 
-`CTRL-X` - exit from nano
+`CTRL-x` - exit from nano
 
 Node should be runing in NON-DAEMON mode. If in your config have line `daemon=1` you should delete it.
 
