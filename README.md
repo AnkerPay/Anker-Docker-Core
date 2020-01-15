@@ -12,7 +12,7 @@ apt install git docker.io
 ##CentOS
 ```text
 yum check-update
-yum install git
+yum install git containerd.io -y
 curl -fsSL https://get.docker.com/ | sh
 systemctl start docker
 systemctl enable docker
