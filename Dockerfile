@@ -37,13 +37,15 @@ RUN apt-get autoremove -y \
 
 # Set workdir and extract package
 WORKDIR /opt
-RUN wget -O anker-linux.tar.gz https://github.com/AnkerPay/Anker/releases/download/2.0/anker-linux.tar.gz
 
-RUN mkdir anker && tar -xf anker-linux.tar.gz -C /opt/anker/
+RUN mkdir anker
 
 WORKDIR /opt/anker
 
-COPY anker.conf /opt/anker/anker.conf
+
+COPY ankerd /opt/anker/ankerd
+COPY anker-cli /opt/anker/anker-cli
+
 # Copy our entrypoint file
 COPY entrypoint.sh /
 
