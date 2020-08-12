@@ -1,2 +1,4 @@
 #!/bin/sh
-docker run -it anker-core /opt/anker/anker-cli $@
+
+docker exec -it anker-core /opt/anker/anker-cli $@
+
